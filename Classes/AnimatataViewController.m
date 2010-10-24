@@ -150,10 +150,9 @@
 - (void) overlaySpin
 {
 	[UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:6.6];
+    [UIView setAnimationDuration:10.0];
     [UIView setAnimationRepeatAutoreverses:YES];
     [UIView setAnimationRepeatCount:1e100f];
-    [UIView setAnimationBeginsFromCurrentState:YES];
     
     //    overlay.transform = CGAffineTransformMakeRotation(M_PI);
     overlay.transform = CGAffineTransformConcat(
