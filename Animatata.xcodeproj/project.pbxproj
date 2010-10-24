@@ -15,6 +15,8 @@
 		2899E5220DE3E06400AC0155 /* AnimatataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AnimatataViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* AnimatataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AnimatataViewController.m */; };
+		4D219BE712737098006AE795 /* TVOutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D219BE612737098006AE795 /* TVOutManager.m */; };
+		4D219C621274A24F006AE795 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D219C611274A24F006AE795 /* Icon.png */; };
 		4DE8E270126599D9002EFD33 /* a0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E269126599D9002EFD33 /* a0.jpg */; };
 		4DE8E271126599D9002EFD33 /* a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E26A126599D9002EFD33 /* a1.jpg */; };
 		4DE8E272126599D9002EFD33 /* a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E26B126599D9002EFD33 /* a2.jpg */; };
@@ -22,19 +24,19 @@
 		4DE8E274126599D9002EFD33 /* a4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E26D126599D9002EFD33 /* a4.jpg */; };
 		4DE8E275126599D9002EFD33 /* a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E26E126599D9002EFD33 /* a5.jpg */; };
 		4DE8E276126599D9002EFD33 /* a6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E26F126599D9002EFD33 /* a6.jpg */; };
-		4DE8E28012659B24002EFD33 /* a6@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27912659B24002EFD33 /* a6@2.jpg */; };
-		4DE8E28112659B24002EFD33 /* a5@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27A12659B24002EFD33 /* a5@2.jpg */; };
-		4DE8E28212659B24002EFD33 /* a4@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27B12659B24002EFD33 /* a4@2.jpg */; };
-		4DE8E28312659B24002EFD33 /* a3@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27C12659B24002EFD33 /* a3@2.jpg */; };
-		4DE8E28412659B24002EFD33 /* a2@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27D12659B24002EFD33 /* a2@2.jpg */; };
-		4DE8E28512659B24002EFD33 /* a1@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27E12659B24002EFD33 /* a1@2.jpg */; };
-		4DE8E28612659B25002EFD33 /* a0@2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27F12659B24002EFD33 /* a0@2.jpg */; };
+		4DE8E28012659B24002EFD33 /* a6@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27912659B24002EFD33 /* a6@2x.jpg */; };
+		4DE8E28112659B24002EFD33 /* a5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27A12659B24002EFD33 /* a5@2x.jpg */; };
+		4DE8E28212659B24002EFD33 /* a4@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27B12659B24002EFD33 /* a4@2x.jpg */; };
+		4DE8E28312659B24002EFD33 /* a3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27C12659B24002EFD33 /* a3@2x.jpg */; };
+		4DE8E28412659B24002EFD33 /* a2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27D12659B24002EFD33 /* a2@2x.jpg */; };
+		4DE8E28512659B24002EFD33 /* a1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27E12659B24002EFD33 /* a1@2x.jpg */; };
+		4DE8E28612659B25002EFD33 /* a0@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8E27F12659B24002EFD33 /* a0@2x.jpg */; };
 		4DE8E3741265A75C002EFD33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE8E3731265A75C002EFD33 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* AnimatataAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatataAppDelegate.h; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AnimatataAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatataAppDelegate.h; path = Classes/AnimatataAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AnimatataAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatataAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Animatata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animatata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,6 +47,9 @@
 		28D7ACF70DDB3853001CB0EB /* AnimatataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatataViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Animatata_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animatata_Prefix.pch; sourceTree = "<group>"; };
+		4D219BE512737098006AE795 /* TVOutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOutManager.h; sourceTree = "<group>"; };
+		4D219BE612737098006AE795 /* TVOutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVOutManager.m; sourceTree = "<group>"; };
+		4D219C611274A24F006AE795 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		4DE8E269126599D9002EFD33 /* a0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0.jpg; sourceTree = "<group>"; };
 		4DE8E26A126599D9002EFD33 /* a1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a1.jpg; sourceTree = "<group>"; };
 		4DE8E26B126599D9002EFD33 /* a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpg; sourceTree = "<group>"; };
@@ -52,13 +57,13 @@
 		4DE8E26D126599D9002EFD33 /* a4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a4.jpg; sourceTree = "<group>"; };
 		4DE8E26E126599D9002EFD33 /* a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a5.jpg; sourceTree = "<group>"; };
 		4DE8E26F126599D9002EFD33 /* a6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a6.jpg; sourceTree = "<group>"; };
-		4DE8E27912659B24002EFD33 /* a6@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a6@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27A12659B24002EFD33 /* a5@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a5@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27B12659B24002EFD33 /* a4@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a4@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27C12659B24002EFD33 /* a3@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a3@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27D12659B24002EFD33 /* a2@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a2@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27E12659B24002EFD33 /* a1@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a1@2.jpg"; sourceTree = "<group>"; };
-		4DE8E27F12659B24002EFD33 /* a0@2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a0@2.jpg"; sourceTree = "<group>"; };
+		4DE8E27912659B24002EFD33 /* a6@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a6@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27A12659B24002EFD33 /* a5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a5@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27B12659B24002EFD33 /* a4@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a4@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27C12659B24002EFD33 /* a3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a3@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27D12659B24002EFD33 /* a2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a2@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27E12659B24002EFD33 /* a1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a1@2x.jpg"; sourceTree = "<group>"; };
+		4DE8E27F12659B24002EFD33 /* a0@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a0@2x.jpg"; sourceTree = "<group>"; };
 		4DE8E3731265A75C002EFD33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Animatata-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Animatata-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,10 +86,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* AnimatataAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AnimatataAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* AnimatataViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* AnimatataViewController.m */,
+				4D219BE512737098006AE795 /* TVOutManager.h */,
+				4D219BE612737098006AE795 /* TVOutManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1D3623240D0F684500981E51 /* AnimatataAppDelegate.h */,
 				32CA4F630368D1EE00C91783 /* Animatata_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -123,6 +130,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D219C611274A24F006AE795 /* Icon.png */,
 				2899E5210DE3E06400AC0155 /* AnimatataViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Animatata-Info.plist */,
@@ -158,13 +166,13 @@
 				4DE8E26D126599D9002EFD33 /* a4.jpg */,
 				4DE8E26E126599D9002EFD33 /* a5.jpg */,
 				4DE8E26F126599D9002EFD33 /* a6.jpg */,
-				4DE8E27912659B24002EFD33 /* a6@2.jpg */,
-				4DE8E27A12659B24002EFD33 /* a5@2.jpg */,
-				4DE8E27B12659B24002EFD33 /* a4@2.jpg */,
-				4DE8E27C12659B24002EFD33 /* a3@2.jpg */,
-				4DE8E27D12659B24002EFD33 /* a2@2.jpg */,
-				4DE8E27E12659B24002EFD33 /* a1@2.jpg */,
-				4DE8E27F12659B24002EFD33 /* a0@2.jpg */,
+				4DE8E27912659B24002EFD33 /* a6@2x.jpg */,
+				4DE8E27A12659B24002EFD33 /* a5@2x.jpg */,
+				4DE8E27B12659B24002EFD33 /* a4@2x.jpg */,
+				4DE8E27C12659B24002EFD33 /* a3@2x.jpg */,
+				4DE8E27D12659B24002EFD33 /* a2@2x.jpg */,
+				4DE8E27E12659B24002EFD33 /* a1@2x.jpg */,
+				4DE8E27F12659B24002EFD33 /* a0@2x.jpg */,
 			);
 			path = a;
 			sourceTree = "<group>";
@@ -227,13 +235,14 @@
 				4DE8E274126599D9002EFD33 /* a4.jpg in Resources */,
 				4DE8E275126599D9002EFD33 /* a5.jpg in Resources */,
 				4DE8E276126599D9002EFD33 /* a6.jpg in Resources */,
-				4DE8E28012659B24002EFD33 /* a6@2.jpg in Resources */,
-				4DE8E28112659B24002EFD33 /* a5@2.jpg in Resources */,
-				4DE8E28212659B24002EFD33 /* a4@2.jpg in Resources */,
-				4DE8E28312659B24002EFD33 /* a3@2.jpg in Resources */,
-				4DE8E28412659B24002EFD33 /* a2@2.jpg in Resources */,
-				4DE8E28512659B24002EFD33 /* a1@2.jpg in Resources */,
-				4DE8E28612659B25002EFD33 /* a0@2.jpg in Resources */,
+				4DE8E28012659B24002EFD33 /* a6@2x.jpg in Resources */,
+				4DE8E28112659B24002EFD33 /* a5@2x.jpg in Resources */,
+				4DE8E28212659B24002EFD33 /* a4@2x.jpg in Resources */,
+				4DE8E28312659B24002EFD33 /* a3@2x.jpg in Resources */,
+				4DE8E28412659B24002EFD33 /* a2@2x.jpg in Resources */,
+				4DE8E28512659B24002EFD33 /* a1@2x.jpg in Resources */,
+				4DE8E28612659B25002EFD33 /* a0@2x.jpg in Resources */,
+				4D219C621274A24F006AE795 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +256,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AnimatataAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* AnimatataViewController.m in Sources */,
+				4D219BE712737098006AE795 /* TVOutManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Peter Anderson (PK484EQWS2)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -271,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Peter Anderson (PK484EQWS2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Animatata_Prefix.pch;
@@ -284,12 +296,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphonesimulator4.1;
 			};
 			name = Debug;
 		};
@@ -297,13 +308,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};

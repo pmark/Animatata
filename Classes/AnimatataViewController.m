@@ -30,64 +30,65 @@
     
     NSArray *images = [NSArray arrayWithObjects:
                        [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a1.jpg"],
+//                       [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a0.jpg"],
                        [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a2.jpg"],
                        [UIImage imageNamed:@"a3.jpg"],
                        [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a3.jpg"],
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a3.jpg"],
+//                       [UIImage imageNamed:@"a3.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a3.jpg"],
                        
-                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
                        [UIImage imageNamed:@"a5.jpg"],
                        [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
                        
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a6.jpg"],
+//                       [UIImage imageNamed:@"a6.jpg"],
+//                       [UIImage imageNamed:@"a6.jpg"],
                        [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a6.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
-                       
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
                        [UIImage imageNamed:@"a6.jpg"],
                        [UIImage imageNamed:@"a5.jpg"],
                        
                        [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
-                       [UIImage imageNamed:@"a4.jpg"],
-                       [UIImage imageNamed:@"a5.jpg"],
-                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a6.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+                       
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a5.jpg"],
+//                       [UIImage imageNamed:@"a4.jpg"],
+//                       [UIImage imageNamed:@"a3.jpg"],
+//                       [UIImage imageNamed:@"a2.jpg"],
+//                       [UIImage imageNamed:@"a3.jpg"],
+//                       [UIImage imageNamed:@"a2.jpg"],
                        [UIImage imageNamed:@"a3.jpg"],
                        [UIImage imageNamed:@"a2.jpg"],
-                       [UIImage imageNamed:@"a3.jpg"],
-                       [UIImage imageNamed:@"a2.jpg"],
-                       [UIImage imageNamed:@"a3.jpg"],
-                       [UIImage imageNamed:@"a2.jpg"],
                        [UIImage imageNamed:@"a1.jpg"],
-                       [UIImage imageNamed:@"a2.jpg"],
-                       [UIImage imageNamed:@"a1.jpg"],
+//                       [UIImage imageNamed:@"a2.jpg"],
+//                       [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a1.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
-                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a1.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
                        [UIImage imageNamed:@"a0.jpg"],
                        [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+//                       [UIImage imageNamed:@"a0.jpg"],
+/*
                        [UIImage imageNamed:@"a0.jpg"],
                        [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a0.jpg"],
@@ -106,6 +107,7 @@
                        [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a1.jpg"],
                        [UIImage imageNamed:@"a1.jpg"],
+*/
                        nil
                        ];
     
@@ -166,7 +168,8 @@
 - (void) fade
 {
 	[UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:5];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+    [UIView setAnimationDuration:2.0];
     [UIView setAnimationRepeatAutoreverses:YES];
     [UIView setAnimationRepeatCount:1e100f];
      
@@ -182,7 +185,7 @@
     
     [self loadAnim1];
 
-    animA1.animationDuration = 23;
+    animA1.animationDuration = 30;
     [animA1 startAnimating];
 
     [self spin];
